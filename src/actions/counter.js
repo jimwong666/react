@@ -19,3 +19,9 @@ export const fetch_user = () => {
     // type: 'FETCH_USER'
   }
 }
+
+export const fetch_todo = () => {
+  return {
+    type: 'FETCH_TODO'
+  }
+}

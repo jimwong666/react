@@ -24,7 +24,8 @@ const initialState = {
 		  error: action.errors,
 		  user: null
 		};
-	  default: return state
+	  default: 
+	  	return state
 	}
   }
   
